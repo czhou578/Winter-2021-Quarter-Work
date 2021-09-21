@@ -1,0 +1,27 @@
+add <- function(x, y) 
+{
+return(x + y)
+}
+subtract <- function(x, y)
+ {
+ return(x - y)
+}
+multiply <- function(x, y) 
+{
+return(x * y)
+}
+divide <- function(x, y)
+{
+return(x / y)
+}
+
+countdown <- function(from)
+{
+  print(from)
+  while(from!=0)
+  {
+    Sys.sleep(1)
+    from <- from - 1
+    print(from)
+  }
+}
